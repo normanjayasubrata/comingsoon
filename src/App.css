@@ -1,0 +1,48 @@
+/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+@font-face {
+  font-family: "Xtrusion (BRK)";
+  src: url("./xtrusion.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#box {
+  /* height: 100%; */
+  /* width: 80%; */
+  background: white;
+  border: solid black 20px;
+  font-size: 4rem;
+  font-family: "Xtrusion (BRK)";
+  /* color: #fff; */
+  text-align: center;
+  /* padding: 10%; */
+  /* display: flex; */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 2%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+  border-radius: 25px;
+}
+
+.mytext {
+  /* line-height: 10%; */
+  /* border: solid red 1px; */
+  border-radius: 25px;
+}
+
+.blackbg {
+  background: black;
+  color: white;
+  padding: 3%;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
